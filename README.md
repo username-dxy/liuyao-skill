@@ -1,6 +1,6 @@
 # 六爻占卜 Skill
 
-适用于 Claude Cowork 的六爻占卜插件。自动掷硬币、完整装卦、四步解卦，给出专业断语。
+适用于所有支持 Claude Skill 的客户端（Claude Code、Cowork 等）的六爻占卜插件。自动掷硬币、完整装卦、四步解卦，给出专业断语。
 
 ## 功能
 
@@ -35,7 +35,7 @@ liuyao-skill/
 ## 安装
 
 1. 下载 [liuyao-skill.skill](https://github.com/username-dxy/liuyao-skill/releases)（或 clone 本仓库后自行打包）
-2. 在 Claude Cowork 中安装 `.skill` 文件
+2. 在支持 Claude Skill 的客户端中安装 `.skill` 文件（Claude Code / Cowork）
 
 ### 自行打包
 
@@ -90,6 +90,3 @@ with zipfile.ZipFile('../liuyao-skill.skill', 'w', zipfile.ZIP_DEFLATED) as zf:
 | 考试、合同、房产 | 父母爻 |
 | 健康、出行、子女 | 子孙爻 |
 
-## License
-
-MIT
